@@ -34,10 +34,11 @@ body {
     margin-right: 1rem;
 }
 .search__input {
-    border-radius: 4px 0 4px 0;
+    border-radius: 4px 0 0 4px;
     padding: .375rem .75rem;
     font-size: 1.2rem;
     border: none;
+    outline: none;
     transition: border-color .15s;
 }
 .search__input:focus {
@@ -80,6 +81,7 @@ aside {
 .nav__ul li {
     padding: 1rem;
     list-style: none;
+    color: rgba(255, 255, 255, .7);
 }
 .nav__ul li a {
     text-decoration: none;
